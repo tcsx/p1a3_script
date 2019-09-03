@@ -1,11 +1,7 @@
 // ==UserScript==
 // @name         1p3a_script
 // @namespace    https://github.com/eagleoflqj/p1a3_script
-<<<<<<< HEAD
-// @version      0.8.1
-=======
 // @version      0.8.2
->>>>>>> master
 // @description  方便使用一亩三分地
 // @author       Liumeo
 // @match        https://www.1point3acres.com/bbs/*
