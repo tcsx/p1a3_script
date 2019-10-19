@@ -56,7 +56,7 @@
                 const fwin_pop = await waitUntilElementLoaded('#fwin_pop form');
                 const question = fwin_pop.find('font:contains(【题目】)').text().slice(5).trim();
                 const prompt = '尚未收录此题答案。如果您知道答案，请将\n"\n' + question + '\n{您的答案}\n"\n以issue形式提交至https://github.com/eagleoflqj/p1a3_script/issues';
-                const answer = QA[question];
+                const answer = QA[question] || QA[question + "?"];
                 if (!answer) { // 题库不含此题
                     console.log(prompt);
                     return;
