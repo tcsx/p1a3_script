@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         1p3a_script
 
-// @version      0.1.1
+// @version      0.1.2
 
 // @author       Liumeo
 // @match        https://www.1point3acres.com/bbs/*
