@@ -78,10 +78,12 @@
                     return;
                 }
                 option_list[0].onclick();
+                jq('#um > p:nth-child(4) > a:nth-child(1)').click();
                 jq('#seccodeverify_SA00')[0].focus();
-                const button = fwin_pop.find('button')[0];
+                
+                // const button = fwin_pop.find('button')[0];
                 // button.click(); // 提交答案
-                console.log(question + '\n答案为：' + answer);
+                // console.log(question + '\n答案为：' + answer);
             })(); // 保证答题对话框加载
     }
 
