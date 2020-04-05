@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         1p3a_script
 
-// @version      0.1.2
+// @version      0.1.3
 
 // @author       Liumeo
 // @match        https://www.1point3acres.com/bbs/*
 
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
-// @require      https://raw.githubusercontent.com/tcsx/p1a3_script/master/QA.js
+// @require      https://raw.githubusercontent.com/tcsx/p1a3_script/master/p1a3_script.js
 
 // ==/UserScript==
 
